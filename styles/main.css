@@ -5,20 +5,53 @@
 body {
   font-size: 100%;
   font-family: "Sora", Arial, sans-serif;
-  padding: 5px;
 }
 body p {
   font-family: "Public Sans", Arial, sans-serif;
   font-size: 1.1em;
 }
 
-.timeline-point {
+article {
+  padding: 10px;
+}
+
+/* Header */
+#header {
+  display: flex;
+  background-color: black;
+  height: 30em;
+  justify-content: center;
+  align-items: center;
+}
+#header h1 {
+  background-color: white;
+  padding: 0.5em;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* Timeline */
+#timeline {
+  /* Text styles */
+  /* Timeline graph */
+}
+#timeline h3 {
+  margin: 0.5em 0;
+}
+#timeline .date {
+  font-size: 0.9em;
+  margin: 0;
+}
+#timeline .timeline-point {
+  /* Position text */
   padding-bottom: 1em;
   padding-left: 1em;
+  /* Position timeline */
   margin-left: 1em;
   border-left: 3px solid black;
+  /* Create timeline points */
 }
-.timeline-point .date:before {
+#timeline .timeline-point .date:before {
   content: "";
   width: 10px;
   height: 10px;
@@ -26,14 +59,7 @@ body p {
   background: white;
   border: 3px solid black;
   position: absolute;
-  left: 1em;
-}
-.timeline-point .date {
-  font-size: 0.9em;
-  margin: 0;
-}
-.timeline-point h3 {
-  margin: 0.5em 0;
+  left: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
