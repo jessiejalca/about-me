@@ -1,3 +1,39 @@
+/* Normalize */
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;900&family=Sora:wght@800&display=swap");
+/* Base */
+body {
+  font-size: 100%;
+  font-family: "Sora", Arial, sans-serif;
+  padding: 5px;
+}
+body p {
+  font-family: "Public Sans", Arial, sans-serif;
+  font-size: 1.1em;
+}
 
+.timeline-point {
+  padding-bottom: 1em;
+  padding-left: 1em;
+  margin-left: 1em;
+  border-left: 3px solid black;
+}
+.timeline-point .date:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+  border: 3px solid black;
+  position: absolute;
+  left: 1em;
+}
+.timeline-point .date {
+  font-size: 0.9em;
+  margin: 0;
+}
+.timeline-point h3 {
+  margin: 0.5em 0;
+}
 
 /*# sourceMappingURL=main.css.map */
