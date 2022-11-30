@@ -20,12 +20,12 @@ article {
 /* Header */
 #header {
   display: flex;
-  background-color: black;
+  background-color: $primary-color;
   height: 30em;
   justify-content: center;
   align-items: center;
   h1 {
-    background-color: white;
+    background-color: $comp-color;
     padding: 0.5em;
     font-size: 3rem;
     text-align: center;
@@ -34,7 +34,7 @@ article {
 
 /* Timeline */
 #timeline {
-  /* Text styles */
+  // Text styles
   h3 {
     margin: 0.5em 0;
   }
@@ -42,24 +42,32 @@ article {
     font-size: 0.9em;
     margin: 0;
   }
-  /* Timeline graph */
-  .timeline-point {
-    /* Position text */
-    padding-bottom: 1em;
-    padding-left: 1em;
 
-    /* Position timeline */
+  // Timeline content boxes
+  .timeline-content-box {
+    border: 1px solid $primary-color;
+    border-radius: 10px;
     margin-left: 1em;
-    border-left: 3px solid black;
+    padding: 10px;
+  }
 
-    /* Create timeline points */
+  // Timeline graph
+  .timeline-point {
+    // Position content
+    padding: 0 1em 1em 1em;
+
+    // Create line
+    margin-left: 1em;
+    border-left: 3px solid $primary-color;
+
+    // Create points
     .date:before {
       content: "";
       width: 10px;
       height: 10px;
       border-radius: 50%;
-      background: white;
-      border: 3px solid black;
+      background: $comp-color;
+      border: 3px solid $primary-color;
       position: absolute;
       left: 20px;
     }

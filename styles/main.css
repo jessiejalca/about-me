@@ -31,10 +31,6 @@ article {
 }
 
 /* Timeline */
-#timeline {
-  /* Text styles */
-  /* Timeline graph */
-}
 #timeline h3 {
   margin: 0.5em 0;
 }
@@ -42,14 +38,16 @@ article {
   font-size: 0.9em;
   margin: 0;
 }
+#timeline .timeline-content-box {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 1em;
+  padding: 10px;
+}
 #timeline .timeline-point {
-  /* Position text */
-  padding-bottom: 1em;
-  padding-left: 1em;
-  /* Position timeline */
+  padding: 0 1em 1em 1em;
   margin-left: 1em;
   border-left: 3px solid black;
-  /* Create timeline points */
 }
 #timeline .timeline-point .date:before {
   content: "";
