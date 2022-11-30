@@ -1,0 +1,13 @@
+@use "../abstracts/" as *;
+
+body {
+  font-size: 100%;
+  font-family: $header-font, Arial, sans-serif;
+  p {
+    font-family: $body-font, Arial, sans-serif;
+    font-size: 1.1em;
+  }
+  .date {
+    font-size: 0.9em;
+  }
+}

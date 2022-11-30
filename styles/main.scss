@@ -1,75 +1,11 @@
-/* Normalize */
-@import "normalize.css";
-
 // Abstracts
-@import "variables";
+@use "abstracts/variables";
+@use "abstracts/mixins";
 
-/* Base */
-body {
-  font-size: 100%;
-  font-family: $header-font, Arial, sans-serif;
-  p {
-    font-family: $body-font, Arial, sans-serif;
-    font-size: 1.1em;
-  }
-}
-article {
-  padding: 10px;
-}
+// Base
+@use "base/normalize";
+@use "base/typography";
 
-/* Header */
-#header {
-  display: flex;
-  background-color: $primary-color;
-  height: 30em;
-  justify-content: center;
-  align-items: center;
-  h1 {
-    background-color: $comp-color;
-    padding: 0.5em;
-    font-size: 3rem;
-    text-align: center;
-  }
-}
-
-/* Timeline */
-#timeline {
-  // Text styles
-  h3 {
-    margin: 0.5em 0;
-  }
-  .date {
-    font-size: 0.9em;
-    margin: 0;
-  }
-
-  // Timeline content boxes
-  .timeline-content-box {
-    border: 1px solid $primary-color;
-    border-radius: 10px;
-    margin-left: 1em;
-    padding: 10px;
-  }
-
-  // Timeline graph
-  .timeline-point {
-    // Position content
-    padding: 0 1em 1em 1em;
-
-    // Create line
-    margin-left: 1em;
-    border-left: 3px solid $primary-color;
-
-    // Create points
-    .date:before {
-      content: "";
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background: $comp-color;
-      border: 3px solid $primary-color;
-      position: absolute;
-      left: 20px;
-    }
-  }
-}
+// Layout
+@use "layout/header";
+@use "layout/timeline";

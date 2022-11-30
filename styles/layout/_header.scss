@@ -1,0 +1,15 @@
+@use "../abstracts/" as *;
+
+#header {
+  display: flex;
+  background-color: $primary-color;
+  height: 30em;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    background-color: $comp-color;
+    padding: 0.5em;
+    font-size: 3rem;
+    text-align: center;
+  }
+}
