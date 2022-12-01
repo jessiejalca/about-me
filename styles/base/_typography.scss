@@ -6,8 +6,7 @@ body {
 }
 h1,
 h2,
-h3,
-p strong {
+h3 {
   font-family: $header-font, Arial, sans-serif;
 }
 h1 {
@@ -24,7 +23,8 @@ h3 {
 p {
   font-size: 1.2em;
   &.date {
-    font-size: 1em;
+    font-size: 1.1em;
+    color: $primary-color;
   }
 }
 #summary {
