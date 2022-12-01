@@ -316,16 +316,16 @@ p strong {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   text-align: center;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.9rem;
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
 }
 
@@ -340,12 +340,15 @@ p.date {
   text-align: center;
 }
 
-@media screen and (min-width: 625px) {
+@media screen and (min-width: 600px) {
   h1 {
     font-size: 3rem;
   }
   h2 {
     font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
   }
 }
 #header {
@@ -382,7 +385,7 @@ article {
 }
 #timeline section.date {
   grid-column: 2;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 10px;
   margin-bottom: 1em;
   padding: 20px;
