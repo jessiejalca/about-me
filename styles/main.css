@@ -340,6 +340,10 @@ p.date {
   text-align: center;
 }
 
+footer p {
+  font-size: 0.9em;
+}
+
 @media screen and (min-width: 600px) {
   h1 {
     font-size: 3rem;
@@ -410,6 +414,15 @@ article {
 #timeline .line {
   width: 3px;
   background-color: black;
+}
+
+footer {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 4.5em;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */

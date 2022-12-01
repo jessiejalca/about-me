@@ -1,0 +1,10 @@
+@use "../abstracts/" as *;
+
+footer {
+  display: flex;
+  background-color: $primary-color;
+  color: $comp-color;
+  height: 4.5em;
+  justify-content: center;
+  align-items: center;
+}
