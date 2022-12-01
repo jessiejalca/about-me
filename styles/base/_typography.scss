@@ -16,17 +16,16 @@ h1 {
 }
 h2 {
   font-size: 2rem;
-  margin-bottom: 0;
 }
 h3 {
+  font-size: 1.3rem;
   text-transform: uppercase;
 }
 p {
   font-size: 1.2em;
-  margin-bottom: 2em;
-}
-.date {
-  font-size: 1em;
+  &.date {
+    font-size: 1em;
+  }
 }
 #summary {
   text-align: center;

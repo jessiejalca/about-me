@@ -10,6 +10,9 @@ article {
   padding: 4em 20px 3.5em;
   max-width: 35em;
   margin: 0 auto;
+  h2 {
+    margin-bottom: 0;
+  }
 }
 
 // Timeline
@@ -19,24 +22,18 @@ article {
   grid-template-columns: 40px auto;
   max-width: 50em;
 
-  // Content Spacing
-  h3 {
-    margin: 0.5em 0;
-  }
-  p.date {
-    margin: 0;
-  }
-
   // Content Boxes
   section.date {
     grid-column: 2;
     border: 1px solid $primary-color;
     border-radius: 10px;
     margin-bottom: 1em;
-    padding: 15px;
-
+    padding: 20px;
+    h3 {
+      margin: 0.3em 0 0.5em;
+    }
     p {
-      margin: 0.5em 0;
+      margin: 0;
     }
   }
 
@@ -51,8 +48,8 @@ article {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: $comp-color;
     border: 3px solid $primary-color;
+    background-color: $comp-color;
   }
   // lines
   .line {

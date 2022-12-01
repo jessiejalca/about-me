@@ -322,19 +322,17 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  margin-bottom: 0;
 }
 
 h3 {
+  font-size: 1.3rem;
   text-transform: uppercase;
 }
 
 p {
   font-size: 1.2em;
-  margin-bottom: 2em;
 }
-
-.date {
+p.date {
   font-size: 1em;
 }
 
@@ -372,6 +370,9 @@ article {
   max-width: 35em;
   margin: 0 auto;
 }
+#summary h2 {
+  margin-bottom: 0;
+}
 
 #timeline {
   margin: 0 auto;
@@ -379,21 +380,18 @@ article {
   grid-template-columns: 40px auto;
   max-width: 50em;
 }
-#timeline h3 {
-  margin: 0.5em 0;
-}
-#timeline p.date {
-  margin: 0;
-}
 #timeline section.date {
   grid-column: 2;
   border: 1px solid black;
   border-radius: 10px;
   margin-bottom: 1em;
-  padding: 15px;
+  padding: 20px;
+}
+#timeline section.date h3 {
+  margin: 0.3em 0 0.5em;
 }
 #timeline section.date p {
-  margin: 0.5em 0;
+  margin: 0;
 }
 #timeline .left {
   grid-column: 1;
@@ -403,8 +401,8 @@ article {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: white;
   border: 3px solid black;
+  background-color: white;
 }
 #timeline .line {
   width: 3px;
