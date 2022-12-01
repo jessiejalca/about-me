@@ -1,0 +1,62 @@
+@use "../abstracts" as *;
+
+article {
+  padding: 1em;
+  margin: 0 auto;
+}
+
+// Summary
+#summary {
+  padding: 4em 20px 3.5em;
+  max-width: 35em;
+  margin: 0 auto;
+}
+
+// Timeline
+#timeline {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 40px auto;
+  max-width: 50em;
+
+  // Content spacing
+  h3 {
+    margin: 0.5em 0;
+  }
+  p.date {
+    margin: 0;
+  }
+
+  // Content boxes
+  section.date {
+    grid-column: 2;
+    border: 1px solid $primary-color;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    padding: 15px;
+
+    p {
+      margin: 0.5em 0;
+    }
+  }
+
+  // Visual Graph
+  // Grid Column
+  .left {
+    grid-column: 1;
+    margin: 0 auto;
+  }
+  // Points
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $comp-color;
+    border: 3px solid $primary-color;
+  }
+  // Lines
+  .line {
+    width: 3px;
+    background-color: $primary-color;
+  }
+}
