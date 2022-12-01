@@ -19,7 +19,7 @@ article {
   grid-template-columns: 40px auto;
   max-width: 50em;
 
-  // Content spacing
+  // Content Spacing
   h3 {
     margin: 0.5em 0;
   }
@@ -27,7 +27,7 @@ article {
     margin: 0;
   }
 
-  // Content boxes
+  // Content Boxes
   section.date {
     grid-column: 2;
     border: 1px solid $primary-color;
@@ -41,12 +41,12 @@ article {
   }
 
   // Visual Graph
-  // Grid Column
+  // place in left column
   .left {
     grid-column: 1;
     margin: 0 auto;
   }
-  // Points
+  // points
   .dot {
     width: 10px;
     height: 10px;
@@ -54,7 +54,7 @@ article {
     background-color: $comp-color;
     border: 3px solid $primary-color;
   }
-  // Lines
+  // lines
   .line {
     width: 3px;
     background-color: $primary-color;

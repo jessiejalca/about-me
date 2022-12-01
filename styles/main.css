@@ -337,7 +337,7 @@ body #summary {
 #header {
   display: flex;
   background-color: black;
-  height: 30em;
+  height: 35em;
   justify-content: center;
   align-items: center;
 }
