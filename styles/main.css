@@ -384,14 +384,15 @@ article {
 #timeline {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 40px auto;
+  grid-template-columns: 50px auto;
   max-width: 50em;
 }
 #timeline section.date {
   grid-column: 2;
   border: 2px solid black;
   border-radius: 10px;
-  margin-bottom: 1.3em;
+  margin-top: -3em;
+  margin-bottom: 3em;
   padding: 20px;
 }
 #timeline section.date h3 {
@@ -415,6 +416,9 @@ article {
 #timeline .line {
   width: 3px;
   background-color: black;
+}
+#timeline .line:last-of-type {
+  width: 0;
 }
 
 footer {
