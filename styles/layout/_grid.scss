@@ -27,9 +27,9 @@ article {
     grid-column: 2;
     border: 2px solid $primary-color;
     border-radius: 10px;
-    margin-top: -3em;
-    margin-bottom: 3em;
     padding: 20px;
+    margin-top: -3em; // line up points with associated blocks
+    margin-bottom: 3em; // create breathing room between blocks
     h3 {
       margin: 0.3em 0 0.5em;
     }
@@ -57,6 +57,7 @@ article {
   .line {
     width: 3px;
     background-color: $primary-color;
+    // hide the last line in the timeline for a clean close
     &:last-of-type {
       width: 0;
     }
