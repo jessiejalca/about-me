@@ -1,5 +1,6 @@
 @use "../abstracts/" as *;
 
+// Set base font information
 body {
   font-size: 100%;
   font-family: $body-font, Arial, sans-serif;
@@ -9,6 +10,10 @@ h2,
 h3 {
   font-family: $header-font, Arial, sans-serif;
 }
+
+// Start with text sizing for small viewports
+// & set special text styling for specific
+// semantic text elements
 h1 {
   font-size: 2.2rem;
   text-align: center;
@@ -34,6 +39,7 @@ footer p {
   font-size: 0.9em;
 }
 
+// Make heading text bigger for larger viewports
 @media screen and (min-width: 600px) {
   h1 {
     font-size: 3rem;
