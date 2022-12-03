@@ -383,6 +383,7 @@ article {
 
 #timeline {
   margin: 0 auto;
+  padding-right: 1.7em;
   display: grid;
   grid-template-columns: 50px auto;
   max-width: 50em;
@@ -391,9 +392,9 @@ article {
   grid-column: 2;
   border: 2px solid black;
   border-radius: 10px;
+  padding: 20px;
   margin-top: -3em;
   margin-bottom: 3em;
-  padding: 20px;
 }
 #timeline section.date h3 {
   margin: 0.3em 0 0.5em;
