@@ -11,10 +11,15 @@ h3 {
   font-family: $header-font, Arial, sans-serif;
   color: $primary-color;
 }
-a,
-a:visited {
+a {
   font-weight: 600;
   color: $secondary-color;
+  &:hover {
+    background-color: fade-out($secondary-color, 0.9);
+  }
+}
+strong {
+  color: $tertiary-color;
 }
 
 // Start with text sizing for small viewports
@@ -35,6 +40,7 @@ p {
   font-size: 1.2em;
   &.date {
     font-size: 1.1em;
+    font-weight: 600;
     color: $secondary-color;
   }
 }
