@@ -9,6 +9,12 @@ h1,
 h2,
 h3 {
   font-family: $header-font, Arial, sans-serif;
+  color: $primary-color;
+}
+a,
+a:visited {
+  font-weight: 600;
+  color: $secondary-color;
 }
 
 // Start with text sizing for small viewports
@@ -29,7 +35,7 @@ p {
   font-size: 1.2em;
   &.date {
     font-size: 1.1em;
-    color: $primary-color;
+    color: $secondary-color;
   }
 }
 #summary {
