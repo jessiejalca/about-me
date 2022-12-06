@@ -453,12 +453,13 @@ img {
 }
 #bonus section.bonus {
   padding: 20px;
+  margin-bottom: 1em;
   border-radius: 10px;
-  box-shadow: 0 0 6px rgba(10, 11, 11, 0.3);
-  max-width: 18em;
+  box-shadow: 0 0 6px rgba(0, 175, 181, 0.6);
 }
 #bonus section.bonus img {
-  margin: 0 auto;
+  display: block;
+  margin: 0 auto 1em;
 }
 #bonus section.bonus h3 {
   position: relative;

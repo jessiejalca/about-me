@@ -67,12 +67,14 @@ img {
   // Content Boxes
   section.bonus {
     padding: 20px;
+    margin-bottom: 1em;
     border-radius: 10px;
-    box-shadow: 0 0 6px fade-out($primary-color, 0.7);
-    max-width: 18em;
+    box-shadow: 0 0 6px fade-out($tertiary-color, 0.4);
+    // max-width: 18em;
     // image
     img {
-      margin: 0 auto;
+      display: block;
+      margin: 0 auto 1em;
     }
     // header
     h3 {
