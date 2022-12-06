@@ -93,3 +93,13 @@ img {
     }
   }
 }
+@media screen and (min-width: 820px) {
+  #bonus-cards {
+    display: flex;
+    justify-content: center;
+    section.bonus {
+      width: 20em;
+      margin: 0 0.6em;
+    }
+  }
+}

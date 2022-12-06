@@ -475,6 +475,16 @@ img {
   background-color: #fc5130;
 }
 
+@media screen and (min-width: 820px) {
+  #bonus-cards {
+    display: flex;
+    justify-content: center;
+  }
+  #bonus-cards section.bonus {
+    width: 20em;
+    margin: 0 0.6em;
+  }
+}
 footer {
   display: flex;
   background-color: #0a0b0b;
