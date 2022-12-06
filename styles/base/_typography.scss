@@ -31,6 +31,8 @@ h1 {
 }
 h2 {
   font-size: 1.9rem;
+  text-align: center;
+  margin-bottom: 0 auto;
 }
 h3 {
   font-size: 1.2rem;
@@ -51,6 +53,12 @@ footer p {
   font-size: 0.9em;
 }
 
+// Icons
+.social-media-icons {
+  color: white;
+  margin: 0.6em 0.2em;
+}
+
 // Make heading text bigger for larger viewports
 @media screen and (min-width: 600px) {
   h1 {
@@ -62,10 +70,4 @@ footer p {
   h3 {
     font-size: 1.5rem;
   }
-}
-
-// Icons
-.social-media-icons {
-  color: white;
-  margin: 0.6em 0.2em;
 }

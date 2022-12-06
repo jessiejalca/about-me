@@ -1,7 +1,7 @@
 @use "../abstracts" as *;
 
 article {
-  padding: 5em 1em;
+  padding: 4em 1em;
   margin: 0 auto;
 }
 
@@ -10,9 +10,6 @@ article {
   padding: 0 20px 3.5em;
   max-width: 35em;
   margin: 0 auto;
-  h2 {
-    margin-bottom: 0;
-  }
 }
 
 // Timeline

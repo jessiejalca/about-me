@@ -334,6 +334,8 @@ h1 {
 
 h2 {
   font-size: 1.9rem;
+  text-align: center;
+  margin-bottom: 0 auto;
 }
 
 h3 {
@@ -358,6 +360,11 @@ footer p {
   font-size: 0.9em;
 }
 
+.social-media-icons {
+  color: white;
+  margin: 0.6em 0.2em;
+}
+
 @media screen and (min-width: 600px) {
   h1 {
     font-size: 3rem;
@@ -369,11 +376,6 @@ footer p {
     font-size: 1.5rem;
   }
 }
-.social-media-icons {
-  color: white;
-  margin: 0.6em 0.2em;
-}
-
 #header {
   display: flex;
   background-color: #0a0b0b;
@@ -387,7 +389,7 @@ footer p {
 }
 
 article {
-  padding: 5em 1em;
+  padding: 4em 1em;
   margin: 0 auto;
 }
 
@@ -395,9 +397,6 @@ article {
   padding: 0 20px 3.5em;
   max-width: 35em;
   margin: 0 auto;
-}
-#summary h2 {
-  margin-bottom: 0;
 }
 
 #timeline {
