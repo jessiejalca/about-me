@@ -315,11 +315,11 @@ h3 {
   color: #0a0b0b;
 }
 
-a {
+p a {
   font-weight: 600;
   color: #fc5130;
 }
-a:hover {
+p a:hover {
   background-color: rgba(252, 81, 48, 0.1);
 }
 
@@ -369,6 +369,11 @@ footer p {
     font-size: 1.5rem;
   }
 }
+.social-media-icons {
+  color: white;
+  margin: 0.6em 0.2em;
+}
+
 #header {
   display: flex;
   background-color: #0a0b0b;
@@ -440,8 +445,8 @@ footer {
   display: flex;
   background-color: #0a0b0b;
   color: white;
-  height: 4.5em;
-  justify-content: center;
+  padding: 1rem 5rem;
+  justify-content: space-between;
   align-items: center;
 }
 
