@@ -5,6 +5,10 @@ article {
   margin: 0 auto;
 }
 
+img {
+  max-width: 100%;
+}
+
 // Summary
 #summary {
   padding: 0 20px 3.5em;
@@ -28,12 +32,6 @@ article {
     padding: 20px;
     margin-top: -3em; // line up points with associated blocks
     margin-bottom: 3em; // create breathing room between blocks
-    h3 {
-      margin: 0.3em 0 0.5em;
-    }
-    p {
-      margin: 0;
-    }
   }
 
   // Visual Graph
@@ -58,6 +56,38 @@ article {
     // hide the last line in the timeline for a clean close
     &:last-of-type {
       width: 0;
+    }
+  }
+}
+
+// Bonus Info
+#bonus {
+  padding-top: 0;
+
+  // Content Boxes
+  section.bonus {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px fade-out($primary-color, 0.7);
+    max-width: 18em;
+    // image
+    img {
+      margin: 0 auto;
+    }
+    // header
+    h3 {
+      position: relative;
+      margin-bottom: 1.2em;
+    }
+    // underline
+    h3::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      height: 7px;
+      bottom: -12px;
+      width: 48px;
+      background-color: $secondary-color;
     }
   }
 }
