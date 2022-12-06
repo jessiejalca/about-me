@@ -451,21 +451,21 @@ img {
 #bonus {
   padding-top: 0;
 }
-#bonus section.bonus {
+#bonus section {
   padding: 20px;
   margin-bottom: 1em;
   border-radius: 10px;
   box-shadow: 0 0 6px rgba(0, 175, 181, 0.6);
 }
-#bonus section.bonus img {
+#bonus section img {
   display: block;
   margin: 0 auto 1em;
 }
-#bonus section.bonus h3 {
+#bonus section h3 {
   position: relative;
   margin-bottom: 1.2em;
 }
-#bonus section.bonus h3::after {
+#bonus section h3::after {
   content: "";
   position: absolute;
   left: 0;
@@ -474,17 +474,17 @@ img {
   width: 48px;
   background-color: #fc5130;
 }
-
 @media screen and (min-width: 820px) {
-  #bonus-cards {
+  #bonus div.card {
     display: flex;
     justify-content: center;
   }
-  #bonus-cards section.bonus {
+  #bonus div.card section {
     width: 20em;
     margin: 0 0.6em;
   }
 }
+
 footer {
   display: flex;
   background-color: #0a0b0b;

@@ -1,0 +1,41 @@
+@use "variables" as *;
+
+// Cards
+@mixin content-cards($viewport: "small") {
+  @if $viewport == "small" {
+    padding: 20px;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 6px fade-out($tertiary-color, 0.4);
+    // max-width: 18em;
+    // image
+    img {
+      display: block;
+      margin: 0 auto 1em;
+    }
+    // header
+    h3 {
+      position: relative;
+      margin-bottom: 1.2em;
+    }
+    // underline
+    h3::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      height: 7px;
+      bottom: -12px;
+      width: 48px;
+      background-color: $secondary-color;
+    }
+  } @else if $viewport == "large" {
+    div.card {
+      display: flex;
+      justify-content: center;
+      section {
+        width: 20em;
+        margin: 0 0.6em;
+      }
+    }
+  }
+}

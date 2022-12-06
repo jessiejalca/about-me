@@ -64,42 +64,11 @@ img {
 #bonus {
   padding-top: 0;
 
-  // Content Boxes
-  section.bonus {
-    padding: 20px;
-    margin-bottom: 1em;
-    border-radius: 10px;
-    box-shadow: 0 0 6px fade-out($tertiary-color, 0.4);
-    // max-width: 18em;
-    // image
-    img {
-      display: block;
-      margin: 0 auto 1em;
-    }
-    // header
-    h3 {
-      position: relative;
-      margin-bottom: 1.2em;
-    }
-    // underline
-    h3::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      height: 7px;
-      bottom: -12px;
-      width: 48px;
-      background-color: $secondary-color;
-    }
+  // Content Cards
+  section {
+    @include content-cards;
   }
-}
-@media screen and (min-width: 820px) {
-  #bonus-cards {
-    display: flex;
-    justify-content: center;
-    section.bonus {
-      width: 20em;
-      margin: 0 0.6em;
-    }
+  @media screen and (min-width: 820px) {
+    @include content-cards("large");
   }
 }
