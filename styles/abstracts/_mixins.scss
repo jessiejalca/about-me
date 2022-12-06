@@ -29,10 +29,11 @@
       background-color: $secondary-color;
     }
   } @else if $viewport == "large" {
-    div.card {
+    div.card-view {
       display: flex;
       justify-content: center;
       section {
+        background-color: white;
         width: 20em;
         margin: 0 0.6em;
       }

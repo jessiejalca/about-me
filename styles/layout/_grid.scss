@@ -20,9 +20,9 @@ img {
 #timeline {
   margin: 0 auto;
   padding-right: 1.7em; // shift timeline to the left for optical centering
+  max-width: 50em;
   display: grid;
   grid-template-columns: 50px auto;
-  max-width: 50em;
 
   // Content Boxes
   section.date {
@@ -68,7 +68,7 @@ img {
   section {
     @include content-cards;
   }
-  @media screen and (min-width: 820px) {
-    @include content-cards("large");
+  @media screen and (min-width: 750px) {
+    @include content-cards(large);
   }
 }
