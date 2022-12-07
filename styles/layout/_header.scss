@@ -3,6 +3,10 @@
 #header {
   display: flex;
   background-color: $primary-color;
+  background-image: url(../../images/globe.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 40rem;
   justify-content: center;
   align-items: center;
