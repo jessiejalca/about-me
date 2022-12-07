@@ -2,11 +2,7 @@
 
 #header {
   display: flex;
-  background-color: $primary-color;
-  background-image: url(../../images/globe.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: $primary-color center/cover url(../images/globe.svg) no-repeat;
   height: 40rem;
   justify-content: center;
   align-items: center;
