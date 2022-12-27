@@ -384,7 +384,7 @@ footer p {
 }
 #header {
   display: flex;
-  background: #0a0b0b center/cover url(../images/globe.svg) no-repeat;
+  background-color: #0a0b0b;
   height: 40rem;
   justify-content: center;
   align-items: center;
@@ -458,7 +458,7 @@ img {
   padding: 20px;
   margin-bottom: 1em;
   border-radius: 10px;
-  box-shadow: 0 0 6px rgba(0, 175, 181, 0.6);
+  box-shadow: 0 0 6px rgba(0, 175, 181, 0.4);
 }
 #bonus-cards img {
   display: block;
